@@ -1,0 +1,418 @@
+.App-header {
+  height: 5rem;
+  padding-left: 0rem;
+  margin: 0rem;
+  border: 0rem;
+}
+
+.nav-btn {
+  background-color: transparent;
+  border-color: transparent;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-ul {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.nav-list-right {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  padding-right: 1rem;
+  gap: 1rem;
+}
+.signin-btn {
+  background-color: #d3edee;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 0;
+  width: 5rem;
+  cursor: pointer;
+}
+
+.google-img {
+  width: 20rem;
+}
+
+.main-div-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontally center children */
+}
+
+.main-div-one {
+  margin-top: 10rem;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  padding: 10px 20px;
+  margin: 2rem auto;
+}
+
+.search-icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.search-icon-button svg {
+  width: 15px;
+  height: 15px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+}
+.voice-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-btn {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-search {
+  width: 9rem;
+  height: 2rem;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  background-color: #f4f0f0;
+  cursor: pointer;
+}
+
+.card {
+  background-color: #e0e0e0;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.card p {
+  margin: 0 auto;
+  position: absolute;
+  font-size: 0.9rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.card ul {
+  list-style: none;
+  position: absolute;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ft-second-ul {
+  list-style: none;
+  position: absolute;
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+  padding: 0;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.card li {
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.close-btn {
+  background-color: transparent;
+  border: none;
+  margin-top: 5px;
+  font-size: larger;
+  color: rgba(2, 15, 15, 0.665);
+  cursor: pointer;
+}
+.span-btn {
+  color: rgba(2, 15, 15, 0.665);
+}
+
+.voice-button-search {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 0px;
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.search-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-pg-div {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  flex-direction: column;
+}
+
+.search-google-img {
+  width: 7rem;
+}
+
+.search-pg-bar-container {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  padding: 10px 20px;
+}
+
+.search-nav-ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.search-sub-div {
+  display: flex;
+}
+.search-sub-div ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin-left: 13rem;
+  margin-top: 1rem;
+}
+.search-sub-div li {
+  list-style: none;
+}
+
+.search-sub-div li button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.pg-main-listing {
+  width: 50%;
+  margin-top: 1rem;
+  margin-left: 13rem;
+  margin-right: 5rem;
+}
+
+.pg-body-listing {
+  width: 50%;
+  margin-top: 1rem;
+  margin-left: 13rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+}
+
+.pg-body-listing > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.line {
+  margin-top: 2rem;
+  border: none;
+  height: 1px;
+  background-color: rgba(103, 201, 226, 1);
+}
+
+.pg-higlight-content {
+  font-size: 15px;
+}
+
+.pg-bg-li-div a h4 {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.pg-bg-li-div-inner p {
+  margin-top: 10px;
+}
+
+.pg-bg-li-div a {
+  margin-bottom: 1rem;
+  color: #0000cc;
+  text-decoration: none;
+}
+
+.pg-bg-li-div a:hover {
+  color: #0000cc;
+  text-decoration: underline;
+}
+
+.icon-size {
+  width: 16px;
+  height: 16px;
+}
+
+.footer-content {
+  width: 100;
+  height: 10rem;
+  background-color: rgb(240, 239, 238);
+}
+
+.footer-icon {
+  align-items: center;
+  padding: 3rem;
+  width: 50%;
+  margin-left: 30rem;
+}
+
+.next-cs {
+  display: flex;
+  padding: 2rem;
+  margin-left: 29rem;
+  color: rgba(103, 201, 226, 1);
+}
+
+.footer-location-container {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.footer-location-container p {
+  margin: 0;
+  color: #555;
+  margin-left: 25rem;
+}
+
+.footer-link {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-location {
+  margin-left: 20rem;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-top: 0.5rem;
+}
+
+.location-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #555;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.footer-links {
+  margin-top: 0.5rem;
+  margin-left: 27rem;
+}
+
+.footer-links a {
+  margin-right: 1rem;
+  color: #555;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.loading-shimmer {
+  margin: 1rem;
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 255, 0) 0%,
+    #a09bd4 50%,
+    rgba(0, 0, 255, 0) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.generating {
+  margin: 1rem;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+}
+
+.card-listing {
+  margin-top: 1rem;
+}
