@@ -58,6 +58,9 @@ export default function Body() {
           className="search-input"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") handleSearch();
+          }}
         />
         <button
           type="button"
